@@ -40,9 +40,9 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.entities": {
-      "version": "1.0.0-pre.15",
+      "version": "file:com.unity.entities@1.0.0-pre.15",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
         "com.unity.burst": "1.7.4",
         "com.unity.serialization": "3.0.0-pre.1",
@@ -55,8 +55,7 @@
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.scriptablebuildpipeline": "1.20.2",
         "com.unity.profiling.core": "1.0.2"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.entities.graphics": {
       "version": "1.0.0-pre.15",

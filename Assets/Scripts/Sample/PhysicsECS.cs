@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Unity.Entities;
-using Unity.Collections;
-using UnityEngine.UIElements;
-using Maphy.Physics;
+using Unity.Entities;
+using Unity.Mathematics;
+using Unity.Physics;
+
 using Collider = Maphy.Physics.Collider;
 using World = Unity.Entities.World;
 using Entity = Unity.Entities.Entity;
@@ -21,6 +22,7 @@ public class PhysicsECS : MonoBehaviour
 
     public void Start()
     {
+        Unity.Physics.
         World world= GetComponent<World>();
        
 

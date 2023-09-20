@@ -1,0 +1,73 @@
+{
+    "name": "Unity.Entities.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Classic",
+        "Unity.Build.Editor",
+        "Unity.Build.Internals",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Editor.Properties",
+        "Unity.Entities.Hybrid",
+        "Unity.InternalAPIEditorBridge.002",
+        "Unity.InternalAPIEngineBridge.002",
+        "Unity.Mathematics",
+        "Unity.Profiling.Core",
+        "Unity.Properties",
+        "Unity.Entities.UI",
+        "Unity.Entities.UI.Editor",
+        "Unity.Scenes",
+        "Unity.Scenes.Editor",
+        "Unity.Serialization",
+        "Unity.Serialization.Editor",
+        "Unity.Transforms",
+        "UnityEditor.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "System.Runtime.CompilerServices.Unsafe.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.quicksearch",
+            "expression": "2.1.0-preview.4",
+            "define": "QUICKSEARCH_AVAILABLE"
+        },
+        {
+            "name": "com.unity.cinemachine.dots",
+            "expression": "0.60.0-preview.81",
+            "define": "ENABLE_TRANSFORM_V1"
+        },
+        {
+            "name": "com.unity.stableid",
+            "expression": "0.60.0-preview.91",
+            "define": "ENABLE_TRANSFORM_V1"
+        },
+        {
+            "name": "com.unity.environment",
+            "expression": "0.2.0-preview.17",
+            "define": "ENABLE_TRANSFORM_V1"
+        },
+        {
+            "name": "com.unity.2d.entities.physics",
+            "expression": "0.5.0-preview.1",
+            "define": "ENABLE_TRANSFORM_V1"
+        },
+        {
+            "name": "Unity",
+            "expression": "2022.2.0f1",
+            "define": "USE_IMPROVED_DATAMODE"
+        }
+    ],
+    "noEngineReferences": false
+}
